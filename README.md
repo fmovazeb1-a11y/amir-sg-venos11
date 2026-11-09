@@ -968,5 +968,66 @@ function resetQuiz() {
 }
 </script>
 
+
+<div class="author-banner">
+  <span class="author-label">PROJECT CREATOR</span>
+
+  <h1>امیرحسین مواظب</h1>
+  <h2>AMIR SG</h2>
+
+  <p>طراح و توسعه‌دهنده این پروژه</p>
+
+  <div class="author-footer">
+    ساخته‌شده توسط امیرحسین مواظب
+    <br>
+    AMIR SG © 2026
+  </div>
+</div>
+
+<style>
+.author-banner {
+  direction: rtl;
+  text-align: center;
+  padding: 35px 15px;
+  margin: 25px auto;
+  max-width: 850px;
+  border: 3px solid #1677ff;
+  border-radius: 20px;
+  background: linear-gradient(135deg, #101827, #172f55);
+  color: white;
+  box-shadow: 0 0 25px #1677ff55;
+}
+
+.author-label {
+  color: #55aaff;
+  letter-spacing: 4px;
+  font-weight: bold;
+}
+
+.author-banner h1 {
+  font-size: clamp(28px, 6vw, 48px);
+  margin: 15px 0;
+  font-weight: 900;
+}
+
+.author-banner h2 {
+  font-size: 30px;
+  color: #ff4545;
+  letter-spacing: 5px;
+}
+
+.author-banner p {
+  font-size: 17px;
+}
+
+.author-footer {
+  margin-top: 25px;
+  padding-top: 18px;
+  border-top: 1px solid #ffffff55;
+  font-weight: bold;
+  line-height: 2;
+}
+</style>
+
 </body>
 </html>
